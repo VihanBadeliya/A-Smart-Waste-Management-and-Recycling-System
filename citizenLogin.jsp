@@ -88,7 +88,7 @@ input[type=submit]:hover{
 
 <input type="password" name="password" placeholder="Enter Password" required>
 
-    <input type="submit" value="Login">
+<input type="submit" value="Login">
 
 </form>
 
