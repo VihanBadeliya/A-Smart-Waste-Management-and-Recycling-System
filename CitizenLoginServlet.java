@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Servlet.java to edit this template
- */
 package com2;
 
 import com1.DBConnection;
@@ -10,10 +6,6 @@ import jakarta.servlet.*;
 import jakarta.servlet.http.*;
 import java.sql.*;
 
-/**
- *
- * @author Dell
- */
 public class CitizenLoginServlet extends HttpServlet {
 @Override
     protected void doPost(HttpServletRequest request,HttpServletResponse response)
@@ -52,10 +44,7 @@ public class CitizenLoginServlet extends HttpServlet {
             rd.forward(request,response);
 
         }
-
     }
-
     catch(Exception e){e.printStackTrace();}
-
     }
 }
