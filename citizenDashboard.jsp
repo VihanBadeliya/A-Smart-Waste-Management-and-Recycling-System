@@ -117,17 +117,17 @@ button:hover{
 
 <div class="navbar">
 
-<a href="index.html">
-<button>Home</button>
-</a>
+    <a href="index.html">
+        <button>Home</button>
+    </a>
 
-<a href="citizenLogin.jsp">
-<button>Citizen Login</button>
-</a>
+    <a href="citizenLogin.jsp">
+        <button>Citizen Login</button>
+    </a>
 
-<a href="driverLogin.jsp">
-<button>Driver Login</button>
-</a>
+    <a href="driverLogin.jsp">
+        <button>Driver Login</button>
+    </a>
 
 </div>
 
