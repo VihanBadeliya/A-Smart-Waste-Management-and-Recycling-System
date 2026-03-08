@@ -88,23 +88,23 @@ input[type=submit]:hover{
 
 <input type="password" name="password" placeholder="Enter Password" required>
 
-<input type="submit" value="Login">
+    <input type="submit" value="Login">
 
 </form>
 
-<%
-String error=(String)request.getAttribute("error");
+    <%
+    String error=(String)request.getAttribute("error");
 
-if(error!=null){
-%>
+    if(error!=null){
+    %>
 
-<p class="error"><%=error%></p>
+    <p class="error"><%=error%></p>
 
-<%
-}
-%>
+    <%
+        }
+    %>
 
-<a href="index.html" class="back">← Back to Home</a>
+    <a href="index.html" class="back">← Back to Home</a>
 
 </div>
 
